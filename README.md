@@ -100,3 +100,5 @@ The Dockerfiles provide a starting point for container hosting. A hosted deploym
 ## Further documentation
 
 See `docs/architecture.md`, `docs/ml-methodology.md`, `docs/data-pipeline.md`, `docs/optimization.md`, `docs/api.md`, `docs/development.md`, `docs/deployment.md`, and `docs/testing.md`.
+
+For hosting steps, see [docs/hosting.md](docs/hosting.md).

@@ -1,6 +1,7 @@
 """Bounded, cached client for official public FPL endpoints."""
 import asyncio
 import json
+import os
 import sqlite3
 import time
 from datetime import datetime, timezone
@@ -13,7 +14,7 @@ _cache: dict[str,tuple[float,Any,datetime]]={}
 _state: dict[str,dict[str,Any]]={}
 _locks: dict[str,asyncio.Lock]={}
 _clients: dict[int,httpx.AsyncClient]={}
-_cache_db=Path(__file__).resolve().parents[3]/"outputs"/"fpl_api_cache.sqlite"
+_cache_db=Path(os.getenv("FPL_API_CACHE_PATH",str(Path(__file__).resolve().parents[3]/"outputs"/"fpl_api_cache.sqlite")))
 _disk_loaded=False
 
 def _load_disk_cache() -> None:
