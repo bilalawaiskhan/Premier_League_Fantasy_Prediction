@@ -1,0 +1,7 @@
+strategy,sum,mean
+Oracle (perfect hindsight),5867,154.4
+XGBoost (walk-forward),2260,59.5
+XGBoost,2243,59.0
+LightGBM,2217,58.3
+Previous GW,1752,46.1
+Rolling-5 avg,1746,45.9

@@ -1,0 +1,14 @@
+,value
+player-gameweek rows,110233.0
+unique players,1692.0
+seasons,4.0
+GWs per season,38.0
+missing values (all raw cols),0.0
+mean points (all rows),1.1843549572269647
+median (all rows),0.0
+mean points (played >0 min),2.8800152162724606
+median (played),2.0
+max points,29.0
+skewness (played),2.022475447158248
+share of rows with 0 minutes,0.5945950849564106
+share of DGW rows,0.03043553200947085

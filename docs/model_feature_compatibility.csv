@@ -1,0 +1,147 @@
+feature,historical source / transformation,current FPL source candidate,availability / compatibility,missing-data policy,leakage consideration
+
+n_fixtures,Historical fixture aggregation and player metadata,fixtures/bootstrap metadata; double/blank Gameweek aggregation needs mapping,UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+was_home,Historical fixture aggregation and player metadata,fixtures/bootstrap metadata; double/blank Gameweek aggregation needs mapping,UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+opp_att_str,"Historical team/opponent aggregates and strength fields, shifted over prior Gameweeks",bootstrap teams plus fixtures/history; matching semantics and pre-deadline cut-off unverified,UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+opp_def_str,"Historical team/opponent aggregates and strength fields, shifted over prior Gameweeks",bootstrap teams plus fixtures/history; matching semantics and pre-deadline cut-off unverified,UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+opp_ovr_str,"Historical team/opponent aggregates and strength fields, shifted over prior Gameweeks",bootstrap teams plus fixtures/history; matching semantics and pre-deadline cut-off unverified,UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+points_last_1,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+total_points_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+minutes_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+starts_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+goals_scored_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+assists_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+bonus_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+bps_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+expected_goals_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+expected_assists_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+expected_goal_involvements_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+clean_sheets_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+goals_conceded_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+saves_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+ict_index_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+threat_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+creativity_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+influence_last_3,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+total_points_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+minutes_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+starts_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+goals_scored_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+assists_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+bonus_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+bps_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+expected_goals_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+expected_assists_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+expected_goal_involvements_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+clean_sheets_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+goals_conceded_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+saves_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+ict_index_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+threat_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+creativity_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+influence_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+total_points_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+minutes_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+starts_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+goals_scored_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+assists_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+bonus_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+bps_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+expected_goals_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+expected_assists_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+expected_goal_involvements_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+clean_sheets_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+goals_conceded_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+saves_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+ict_index_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+threat_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+creativity_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+influence_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+points_ewm,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+minutes_ewm,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+points_std_last_10,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+n_prev_apps,"Past player/team Gameweek statistics, engineered by src/features.py",element-summary history where present; field names and aggregation unverified,UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+price_change_1,Historical player value and derived change / value ratio,bootstrap element value; price history and exact transformation unverified,UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+points_per_million,Historical player value and derived change / value ratio,bootstrap element value; price history and exact transformation unverified,UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+team_xg_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+team_xgc_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+team_goals_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+team_conceded_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+opp_team_xg_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+opp_team_xgc_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+opp_team_goals_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+opp_team_conceded_last_5,Past player Gameweek stats; shifted rolling mean or exponential weighting in src/features.py,"element-summary history, after a season/player-identity mapping is validated",UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+pos_code,Historical fixture aggregation and player metadata,fixtures/bootstrap metadata; double/blank Gameweek aggregation needs mapping,UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference
+
+price,Historical player value and derived change / value ratio,bootstrap element value; price history and exact transformation unverified,UNVERIFIED: no current-season compatibility adapter,Mark prediction unavailable; do not silently fill with zero,Only records available before the target Gameweek may be used; verify shift/cut-off before inference

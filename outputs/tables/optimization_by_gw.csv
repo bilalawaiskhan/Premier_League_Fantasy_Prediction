@@ -1,0 +1,229 @@
+GW,strategy,points,pred_total
+1,Oracle (perfect hindsight),140,140.0
+1,XGBoost,46,55.91082000000001
+1,XGBoost (walk-forward),46,55.9108202457428
+1,LightGBM,40,58.97737012947253
+1,Rolling-5 avg,43,87.4
+1,Previous GW,44,140.0
+2,Oracle (perfect hindsight),172,172.0
+2,XGBoost,42,56.10830680000001
+2,XGBoost (walk-forward),42,56.108307123184204
+2,LightGBM,46,57.723304917751136
+2,Rolling-5 avg,40,78.4
+2,Previous GW,54,140.0
+3,Oracle (perfect hindsight),136,136.0
+3,XGBoost,58,55.58180230000001
+3,XGBoost (walk-forward),58,55.58180212974548
+3,LightGBM,52,58.63602063178254
+3,Rolling-5 avg,41,79.79999999999998
+3,Previous GW,43,172.0
+4,Oracle (perfect hindsight),148,148.0
+4,XGBoost,62,56.9771379
+4,XGBoost (walk-forward),62,56.97713780403137
+4,LightGBM,62,58.83944101671211
+4,Rolling-5 avg,55,86.19999999999999
+4,Previous GW,52,143.0
+5,Oracle (perfect hindsight),135,135.0
+5,XGBoost,48,54.919392499999994
+5,XGBoost (walk-forward),53,54.96839380264282
+5,LightGBM,47,56.05244302639831
+5,Rolling-5 avg,49,89.24999999999999
+5,Previous GW,42,149.0
+6,Oracle (perfect hindsight),160,160.0
+6,XGBoost,48,57.43281770000001
+6,XGBoost (walk-forward),47,60.19512104988098
+6,LightGBM,45,61.134643527798154
+6,Rolling-5 avg,65,89.6
+6,Previous GW,36,135.0
+7,Oracle (perfect hindsight),151,151.0
+7,XGBoost,46,57.525767
+7,XGBoost (walk-forward),46,58.48338460922241
+7,LightGBM,77,57.36733734919159
+7,Rolling-5 avg,59,91.4
+7,Previous GW,36,160.0
+8,Oracle (perfect hindsight),186,186.0
+8,XGBoost,83,59.08918720000001
+8,XGBoost (walk-forward),81,60.08791494369507
+8,LightGBM,70,60.754195635909866
+8,Rolling-5 avg,68,90.8
+8,Previous GW,33,151.0
+9,Oracle (perfect hindsight),170,170.0
+9,XGBoost,68,65.20437230000002
+9,XGBoost (walk-forward),64,66.55048513412476
+9,LightGBM,69,66.86547972884473
+9,Rolling-5 avg,38,95.0
+9,Previous GW,63,186.0
+10,Oracle (perfect hindsight),141,141.0
+10,XGBoost,78,64.6817885
+10,XGBoost (walk-forward),86,63.88504147529602
+10,LightGBM,77,66.79581616813142
+10,Rolling-5 avg,62,88.80000000000001
+10,Previous GW,30,170.0
+11,Oracle (perfect hindsight),153,153.0
+11,XGBoost,47,64.14337640000001
+11,XGBoost (walk-forward),43,65.7701690196991
+11,LightGBM,43,65.7863622662189
+11,Rolling-5 avg,26,96.2
+11,Previous GW,44,141.0
+12,Oracle (perfect hindsight),173,173.0
+12,XGBoost,57,62.2584356
+12,XGBoost (walk-forward),57,61.63450479507446
+12,LightGBM,44,64.71805948314665
+12,Rolling-5 avg,47,87.6
+12,Previous GW,33,153.0
+13,Oracle (perfect hindsight),159,159.0
+13,XGBoost,39,59.7164104
+13,XGBoost (walk-forward),44,59.77003860473633
+13,LightGBM,44,61.199344066972884
+13,Rolling-5 avg,23,87.2
+13,Previous GW,22,173.0
+14,Oracle (perfect hindsight),167,167.0
+14,XGBoost,75,58.9589781
+14,XGBoost (walk-forward),81,58.66551971435547
+14,LightGBM,75,60.65322454366237
+14,Rolling-5 avg,32,80.4
+14,Previous GW,35,159.0
+15,Oracle (perfect hindsight),159,159.0
+15,XGBoost,70,59.0156039
+15,XGBoost (walk-forward),73,60.43881106376648
+15,LightGBM,90,60.66993963513003
+15,Rolling-5 avg,65,83.6
+15,Previous GW,57,167.0
+16,Oracle (perfect hindsight),174,174.0
+16,XGBoost,94,55.591030800000006
+16,XGBoost (walk-forward),76,57.72719097137451
+16,LightGBM,69,59.18602120514715
+16,Rolling-5 avg,51,90.6
+16,Previous GW,89,159.0
+17,Oracle (perfect hindsight),165,165.0
+17,XGBoost,61,59.738861799999995
+17,XGBoost (walk-forward),77,59.69977378845215
+17,LightGBM,76,62.1297494863501
+17,Rolling-5 avg,65,95.0
+17,Previous GW,61,174.0
+18,Oracle (perfect hindsight),158,158.0
+18,XGBoost,57,58.0192541
+18,XGBoost (walk-forward),55,59.00666952133179
+18,LightGBM,55,62.13403957135682
+18,Rolling-5 avg,38,99.0
+18,Previous GW,41,165.0
+19,Oracle (perfect hindsight),144,144.0
+19,XGBoost,48,56.8411365
+19,XGBoost (walk-forward),45,57.2856547832489
+19,LightGBM,46,61.959501726266474
+19,Rolling-5 avg,28,92.6
+19,Previous GW,41,158.0
+20,Oracle (perfect hindsight),157,157.0
+20,XGBoost,45,57.3031372
+20,XGBoost (walk-forward),29,56.80230784416199
+20,LightGBM,41,58.66914792896097
+20,Rolling-5 avg,30,86.8
+20,Previous GW,42,144.0
+21,Oracle (perfect hindsight),145,145.0
+21,XGBoost,64,57.423680100000006
+21,XGBoost (walk-forward),55,55.9964439868927
+21,LightGBM,63,56.93254842345856
+21,Rolling-5 avg,54,82.79999999999998
+21,Previous GW,54,157.0
+22,Oracle (perfect hindsight),125,125.0
+22,XGBoost,47,54.987791099999995
+22,XGBoost (walk-forward),47,56.17669486999512
+22,LightGBM,36,56.61075389122734
+22,Rolling-5 avg,53,86.4
+22,Previous GW,22,145.0
+23,Oracle (perfect hindsight),138,138.0
+23,XGBoost,56,56.40072970000001
+23,XGBoost (walk-forward),60,56.24194931983948
+23,LightGBM,46,59.20948920338476
+23,Rolling-5 avg,34,86.00000000000001
+23,Previous GW,57,125.0
+24,Oracle (perfect hindsight),146,146.0
+24,XGBoost,52,53.9054123
+24,XGBoost (walk-forward),68,53.82992148399353
+24,LightGBM,60,55.09717562376752
+24,Rolling-5 avg,41,80.4
+24,Previous GW,42,138.0
+25,Oracle (perfect hindsight),152,152.0
+25,XGBoost,60,55.0080618
+25,XGBoost (walk-forward),60,57.41453552246094
+25,LightGBM,43,56.506672851630675
+25,Rolling-5 avg,32,78.2
+25,Previous GW,18,146.0
+26,Oracle (perfect hindsight),164,164.0
+26,XGBoost,85,71.471312
+26,XGBoost (walk-forward),85,71.61412739753723
+26,LightGBM,64,74.54162972739664
+26,Rolling-5 avg,51,78.79999999999998
+26,Previous GW,53,152.0
+27,Oracle (perfect hindsight),157,157.0
+27,XGBoost,64,57.2872693
+27,XGBoost (walk-forward),47,57.22162866592407
+27,LightGBM,58,58.40532488740723
+27,Rolling-5 avg,57,86.80000000000001
+27,Previous GW,68,164.0
+28,Oracle (perfect hindsight),147,147.0
+28,XGBoost,49,55.287365199999996
+28,XGBoost (walk-forward),52,55.64110589027405
+28,LightGBM,59,57.52610074831478
+28,Rolling-5 avg,41,88.2
+28,Previous GW,59,157.0
+29,Oracle (perfect hindsight),158,158.0
+29,XGBoost,59,56.5282135
+29,XGBoost (walk-forward),73,57.363120317459106
+29,LightGBM,72,57.83671774899185
+29,Rolling-5 avg,70,85.6
+29,Previous GW,42,147.0
+30,Oracle (perfect hindsight),128,128.0
+30,XGBoost,54,56.9700085
+30,XGBoost (walk-forward),48,57.292195320129395
+30,LightGBM,53,57.75761308591796
+30,Rolling-5 avg,39,89.4
+30,Previous GW,38,158.0
+31,Oracle (perfect hindsight),145,145.0
+31,XGBoost,61,53.260852500000006
+31,XGBoost (walk-forward),58,52.55475902557373
+31,LightGBM,64,52.329900134633526
+31,Rolling-5 avg,32,80.6
+31,Previous GW,51,126.0
+32,Oracle (perfect hindsight),180,180.0
+32,XGBoost,55,56.585726300000005
+32,XGBoost (walk-forward),58,56.77849817276001
+32,LightGBM,74,57.974310326580685
+32,Rolling-5 avg,40,84.8
+32,Previous GW,47,147.0
+33,Oracle (perfect hindsight),187,187.0
+33,XGBoost,77,93.8815913
+33,XGBoost (walk-forward),93,92.86675882339478
+33,LightGBM,83,100.68078869258714
+33,Rolling-5 avg,67,85.80000000000001
+33,Previous GW,61,180.0
+34,Oracle (perfect hindsight),136,136.0
+34,XGBoost,63,54.3799337
+34,XGBoost (walk-forward),51,54.31951880455017
+34,LightGBM,47,55.49355347528907
+34,Rolling-5 avg,57,84.0
+34,Previous GW,62,149.0
+35,Oracle (perfect hindsight),153,153.0
+35,XGBoost,44,57.795214800000004
+35,XGBoost (walk-forward),47,57.25212836265564
+35,LightGBM,45,59.02965282788042
+35,Rolling-5 avg,25,90.79999999999998
+35,Previous GW,48,177.0
+36,Oracle (perfect hindsight),154,154.0
+36,XGBoost,79,76.1793072
+36,XGBoost (walk-forward),78,76.48253035545349
+36,LightGBM,71,77.25838569549114
+36,Rolling-5 avg,46,89.6
+36,Previous GW,45,153.0
+37,Oracle (perfect hindsight),154,154.0
+37,XGBoost,66,57.0629523
+37,XGBoost (walk-forward),76,57.65360927581787
+37,LightGBM,74,59.338332776475966
+37,Rolling-5 avg,46,89.6
+37,Previous GW,46,154.0
+38,Oracle (perfect hindsight),150,150.0
+38,XGBoost,36,54.893031499999985
+38,XGBoost (walk-forward),39,54.59558582305908
+38,LightGBM,37,58.299637094762225
+38,Rolling-5 avg,36,96.0
+38,Previous GW,41,154.0

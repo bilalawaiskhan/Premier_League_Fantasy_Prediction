@@ -1,0 +1,17 @@
+{
+ "xgb_params": {
+  "max_depth": 3,
+  "learning_rate": 0.03,
+  "min_child_weight": 10,
+  "subsample": 0.8,
+  "colsample_bytree": 0.7,
+  "reg_lambda": 5
+ },
+ "n_estimators": 309,
+ "n_features": 73,
+ "rows": {
+  "train": 50284,
+  "val": 26453,
+  "test": 28438
+ }
+}
